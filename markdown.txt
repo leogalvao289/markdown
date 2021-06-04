@@ -1,0 +1,12 @@
+1. How do you see the files changed within each commit from git log?
+
+list of commits made to the repository appears in reverse chronological order; that is, the most recent commit appears first
+the author's name and email, date of insertion, and the commit message.
+
+2. How do you see the contents of what changed within each file from the git log?
+
+-p, which shows the differences introduced in each commit. You can also use -2, which lists only the last two items on the return.
+
+3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+
+head: Show the first lines of a file, as for example with head -10 a.txt, or used as a filter to show only the first x results of another command
